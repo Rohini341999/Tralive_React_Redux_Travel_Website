@@ -1,0 +1,16 @@
+@import url("./fonts/fontstyle.css");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header-parent {
+  /* height: 190vh; */
+}
+
+@media (max-width: 77em) {
+  .header-parent {
+    /* height: 160vh; */
+  }
+}
