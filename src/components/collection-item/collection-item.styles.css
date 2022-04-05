@@ -1,0 +1,152 @@
+@import url("../../fonts/fontstyle.css");
+.collection-item {
+  width: 30%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 10px;
+  height: 600px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 15px;
+  color: #fcfcfc;
+  font-family: 'VisbyRoundCF-Regular';
+  border: 2px solid #a0bbfe;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-bottom: 2rem;
+  position: relative;
+}
+
+.collection-item .custom-button {
+  width: 10%;
+  min-width: 111px;
+  height: 7%;
+  opacity: 0.7;
+  position: absolute;
+  top: 90%;
+  right: 4%;
+  display: none;
+  border-radius: 0px;
+  padding: 0;
+}
+
+.collection-item:hover .image {
+  opacity: 0.8;
+}
+
+.collection-item:hover .custom-button {
+  opacity: 0.85;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.collection-item .special-event-offer-tag {
+  height: 7%;
+  width: 100%;
+  background-color: #ffc900;
+  text-align: center;
+  padding: 5px;
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #0a0a22;
+  font-family: 'VisbyRoundCF-Bold';
+}
+
+.collection-item .special-event-offer-tag .special-offer {
+  height: 100%;
+  width: 100%;
+}
+
+.collection-item .image {
+  width: 100%;
+  height: 50%;
+  background-size: cover;
+  background-position: center;
+  -webkit-transition: width height 3s;
+  transition: width height 3s;
+}
+
+.collection-item .collection-body-parent {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  gap: 1rem;
+}
+
+.collection-item .collection-body-parent .collection-body {
+  width: 100%;
+  height: -webkit-fill-available;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 1.1rem;
+  overflow-wrap: break-word;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.collection-item .collection-body-parent .collection-body .destination {
+  width: 99%;
+}
+
+.collection-item .collection-body-parent .collection-footer {
+  width: 100%;
+  height: -webkit-fill-available;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  font-size: 1.1rem;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.collection-item .collection-body-parent .collection-footer .itinerary {
+  width: 100%;
+}
+
+.collection-item .collection-body-parent .collection-footer .travel-date {
+  width: 47%;
+}
+
+.collection-item .collection-body-parent .collection-footer .start-city {
+  width: 50%;
+}
+
+.collection-item .collection-body-parent .collection-footer .airline {
+  width: 50%;
+}
+
+.collection-item .collection-body-parent .collection-footer button.book-now {
+  background-color: #ffc900;
+  border: none;
+  color: #0a0a22;
+  font-size: 1.2rem;
+  font-weight: 500;
+  letter-spacing: 0.01rem;
+  line-height: 1.1rem;
+  font-family: 'VisbyRoundCF-Bold';
+}
+/*# sourceMappingURL=collection-item.styles.css.map */

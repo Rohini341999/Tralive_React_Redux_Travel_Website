@@ -1,0 +1,115 @@
+@import url("../fonts/fontstyle.css");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "VisbyRoundCF-Regular", sans-serif;
+  background-color: #0a0a22;
+  color: #fff;
+}
+
+.what-customers-say-container {
+  text-align: center;
+}
+
+.what-customers-say-title {
+  font-size: 2.5rem;
+  margin: 4rem;
+  letter-spacing: 0.3rem;
+}
+
+.what-customers-say-paragraph {
+  margin: 4rem;
+  font-size: 1.2rem;
+  letter-spacing: 0.005rem;
+}
+
+.what-customers-say-person-intro-block {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.person-intro-name-designation-block {
+  display: flex;
+  flex-direction: column;
+}
+.person-intro-name {
+  font-size: 1.5rem;
+  font-weight: 500;
+  padding: 0.2rem 1rem;
+}
+.person-intro-designation {
+  font-size: 1rem;
+  font-weight: 500;
+  padding: 0.2rem 1rem;
+}
+.person-intro-img {
+  width: 8%;
+  height: 8%;
+}
+
+/* 1078px : 77em*14 */
+@media (max-width: 77em) {
+  .what-customers-say-title {
+    font-size: 3.5rem;
+  }
+  .what-customers-say-paragraph {
+    font-size: 2rem;
+  }
+  .person-intro-img {
+    width: 12%;
+    height: 12%;
+  }
+  .person-intro-name {
+    font-size: 2.5rem;
+    font-weight: 500;
+    padding: 0.2rem 1rem;
+  }
+  .person-intro-designation {
+    font-size: 1.5rem;
+    font-weight: 500;
+    padding: 0.2rem 1rem;
+  }
+}
+
+@media (max-width: 44em) {
+  .what-customers-say-title {
+    margin: 1rem;
+  }
+  .what-customers-say-paragraph {
+    margin: 2rem;
+    font-size: 1.6rem;
+  }
+}
+
+@media (max-width: 36em) {
+  .what-customers-say-title {
+    font-size: 2.8rem;
+  }
+  .person-intro-name {
+    font-size: 2rem;
+  }
+  .person-intro-designation {
+    font-size: 1.3rem;
+  }
+}
+
+@media (max-width: 30em) {
+  .what-customers-say-title {
+    font-size: 1.8rem;
+  }
+  .person-intro-designation {
+    font-size: 1rem;
+  }
+  .person-intro-name {
+    font-size: 1.5rem;
+  }
+  .what-customers-say-paragraph {
+    margin: 1rem;
+    font-size: 1rem;
+  }
+}

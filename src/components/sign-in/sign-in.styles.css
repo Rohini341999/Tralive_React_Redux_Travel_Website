@@ -1,0 +1,29 @@
+.sign-in {
+  width: 40%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 1.5rem;
+}
+
+.sign-in .title {
+  margin: 10px 0;
+}
+
+.sign-in .buttons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.sign-in .have-account {
+  margin: 10px 0;
+}
+/*# sourceMappingURL=sign-in.styles.css.map */

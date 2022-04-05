@@ -1,0 +1,19 @@
+.sign-in {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  padding: 1.5rem;
+
+  .title {
+    margin: 10px 0;
+  }
+
+  .buttons {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .have-account {
+    margin: 10px 0;
+  }
+}

@@ -1,0 +1,128 @@
+@import url('../../fonts/fontstyle.css');
+
+.collection-item {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  height: 600px;
+  align-items: center;
+  padding: 15px;
+  color: #fcfcfc;
+  font-family: 'VisbyRoundCF-Regular';
+  border: 2px solid #a0bbfe;
+  // border: 2px solid #ffc900;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-bottom: 2rem;
+  position: relative;
+
+  .custom-button {
+    width: 10%;
+    min-width: 111px;
+    height: 7%;
+    opacity: 0.7;
+    position: absolute;
+    top: 90%;
+    right: 4%;
+    display: none;
+    border-radius: 0px;
+    padding: 0;
+  }
+  &:hover {
+    .image {
+      opacity: 0.8;
+    }
+
+    .custom-button {
+      opacity: 0.85;
+      display: flex;
+      align-items: center;
+    }
+  }
+
+  .special-event-offer-tag {
+    height: 7%;
+    width: 100%;
+    background-color: #ffc900;
+    text-align: center;
+    padding: 5px;
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #0a0a22;
+    font-family: 'VisbyRoundCF-Bold';
+
+    .special-offer {
+      height: 100%;
+      width: 100%;
+
+      .deluxe-offer {
+      }
+    }
+  }
+
+  .image {
+    width: 100%;
+    height: 50%;
+    background-size: cover;
+    background-position: center;
+    // border: 1px solid #ffc900;
+    transition: width height 3s;
+  }
+
+  .collection-body-parent {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 1rem;
+
+    .collection-body {
+      width: 100%;
+      height: -webkit-fill-available;
+      display: flex;
+      font-size: 1.1rem;
+      overflow-wrap: break-word;
+      flex-wrap: wrap;
+
+      align-items: center;
+
+      .destination {
+        width: 99%;
+      }
+    }
+
+    .collection-footer {
+      width: 100%;
+      height: -webkit-fill-available;
+      display: flex;
+      justify-content: space-between;
+      font-size: 1.1rem;
+      align-items: center;
+
+      .itinerary {
+        width: 100%;
+      }
+
+      .travel-date {
+        width: 47%;
+      }
+
+      .start-city {
+        width: 50%;
+      }
+      .airline {
+        width: 50%;
+      }
+      button.book-now {
+        background-color: #ffc900;
+        border: none;
+        color: #0a0a22;
+        font-size: 1.2rem;
+        font-weight: 500;
+        letter-spacing: 0.01rem;
+        line-height: 1.1rem;
+        font-family: 'VisbyRoundCF-Bold';
+      }
+    }
+  }
+}
